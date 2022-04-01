@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
+//using system.windows.media.imaging;
+//using system.windows.navigation;
+//using system.windows.controls;
+//using system.windows.data;
+//using system.windows.documents;
+//using system.windows.input;
 
 namespace BasicUI
 {

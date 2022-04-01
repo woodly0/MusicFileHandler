@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using System.Collections.ObjectModel;
 using BasicUI.Models;
@@ -170,8 +169,6 @@ namespace BasicUI
             }
 
         }
-
-
 
 
         public static void GetDummySong(ObservableCollection<SongModel> list)
