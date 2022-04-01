@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>BasicUI.App</StartupObject>
+    <ApplicationIcon>music-logo-png-2350.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="music-logo-png-2350.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ID3" Version="0.6.0" />
+    <PackageReference Include="PlaylistsNET" Version="1.1.3" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="music-logo-png-2350.png" />
+  </ItemGroup>
+
+</Project>
