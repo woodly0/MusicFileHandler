@@ -115,30 +115,9 @@ namespace BasicUI
 
             if (playList.CopyList())  // Action!
             {
-                MessageBox.Show("Alle files have been copied.","My Nigga", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Alle files have been copied.","Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
-
         }
-
-
-
-
-
-
-
-        //private void btnChangeUser_Click(object sender, RoutedEventArgs e)
-        //{
-        //    if (lbUsers.SelectedItem != null)
-        //        (lbUsers.SelectedItem as User).Name = "Random Name";
-        //}
-
-        //private void buttonAdd_Click(object sender, RoutedEventArgs e)
-        //{
-        //    Utility.GetDummySong(playList);
-        //    //dataGrid1.Items.Refresh();
-        //}
-
-
 
     }
 }
